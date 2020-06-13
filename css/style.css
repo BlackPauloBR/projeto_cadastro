@@ -1,0 +1,43 @@
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 5px;
+  border: 1px solid gray;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 5px;
+  border: 1px solid gray;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+label,
+input {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 5px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#cadastro_nome > label {
+  margin-left: 10px;
+  margin-top: 10px; /*não funciona*/
+  font-weight: bolder;
+  color: black;
+}
+.formulario {
+  margin-left: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.clickable {
+  cursor: pointer;
+}
